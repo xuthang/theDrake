@@ -1,0 +1,13 @@
+.button  {
+    -fx-background-color: none;
+    -fx-background-image: url('buttonBackground.png');
+    -fx-min-width: 230px;
+    -fx-min-height : 45px;
+    -fx-border-width: 0;
+    -fx-text-fill: #FBFBFB;
+    -fx-font-weight: bold;
+}
+
+.button:hover {
+    -fx-background-image: url('buttonBackgroundHover.png');
+}
